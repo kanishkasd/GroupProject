@@ -9,3 +9,36 @@
   <body>
 
     <p>This is changes</p>
+ <header>
+        <h1>Electricity Consumption Tracker</h1>
+    </header>
+
+    <main>
+        <section id="consumption">
+            <h2>Current Electricity Consumption</h2>
+            <div id="current-consumption">
+                <p><span id="current-value">0</span> kWh</p>
+                <button id="update-btn">Update Consumption</button>
+            </div>
+        </section>
+
+        <section id="billing">
+            <h2>Electricity Billing</h2>
+            <div id="billing-info">
+                <p>Total consumption: <span id="total-consumption">0</span> kWh</p>
+                <p>Daily cost: $<span id="daily-cost">0</span></p>
+                <p>Monthly cost: $<span id="monthly-cost">0</span></p>
+            </div>
+        </section>
+
+        <section id="alerts">
+            <h2>Alerts</h2>
+            <div id="alert-info">
+                <!-- Alerts will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
