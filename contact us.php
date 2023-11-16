@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="image1-section">
-                        <img src="logo.jpg">
+                        <img src="./assets/logo.jpg">
                     </div>
                 </div>
             </div>
