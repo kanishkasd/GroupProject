@@ -1,5 +1,5 @@
 <div class="navbar">
-    <img src="logo.jpg" class="logo">
+    <img src="./assets/logo.jpg" class="logo">
         <ul>
             <li><a href="index.php" target="_blank">Home</a></li>
             <li><a href="dashboard.php" target="_blank">Dashboard</a></li>
