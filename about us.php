@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="image1-section">
-                 <img src="./assets/logo.jpg">
+                  <img src="logo.jpg">
                 </div>
             </div>
         </div>

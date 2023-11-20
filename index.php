@@ -3,9 +3,7 @@
         <title>
                    ceylon elctricity bill calculation 
         </title>
-        <link rel="stylesheet" href="./styles/style.css">
-
-        <link rel="stylesheet" href="./styles/mobile.css"> 
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
