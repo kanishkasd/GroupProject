@@ -32,7 +32,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $price_per_unit = calculatePricePerUnit($consumption_value);
 
-        $consumption_charge = $consumption_value * $price_per_unit;
+        $fixed_cost = fixedCost($consumption_value);
+
+        $consumption_charge = $consumption_value * $price_per_unit + $fixed_cost;
 
 
         // Insert calculated rates into the database
@@ -56,15 +58,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 function calculatePricePerUnit($consumption_value) {
     if ($consumption_value > 0 && $consumption_value < 31) {
-        return 10;
+        return 8;
     } elseif ($consumption_value > 30 && $consumption_value < 61) {
-        return 20;
+        return 10;
     } elseif ($consumption_value > 60 && $consumption_value < 91) {
-        return 30;
+        return 16;
     } elseif ($consumption_value > 90 && $consumption_value < 121) {
-        return 40;
-    } else {
         return 50;
+    } elseif ($consumption_value > 120 && $consumption_value < 181) {
+        return 50;    
+    } else {
+        return 75;
+    }
+}
+function fixedCost($consumption_value) {
+    if ($consumption_value > 0 && $consumption_value < 31) {
+        return 120;
+    } elseif ($consumption_value > 30 && $consumption_value < 61) {
+        return 240;
+    } elseif ($consumption_value > 60 && $consumption_value < 91) {
+        return 360;
+    } elseif ($consumption_value > 90 && $consumption_value < 121) {
+        return 960;
+    } elseif ($consumption_value > 120 && $consumption_value < 181) {
+        return 960;
+    } else {
+        return 1500;
     }
 }
 ?>

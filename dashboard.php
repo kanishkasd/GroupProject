@@ -18,6 +18,8 @@
 
             <div class="banner">
             <?php include_once'navbar.php' ?>
+            <h3 class="headText">You can store your meter reading using below form.. 
+                if you need more details about meter reading refer the <a class="ancor" href="meter_reading_guid.php"> meter reading guidlines </a> </h3>
             <div class="meter_reading_form">
             <h1>Ceylon Electricity Bill Calculation System</h1>
             <h2>Please input your meter readings to the system</h2>

@@ -28,8 +28,17 @@ if (!isset($_SESSION['user_id'])) {
                 <li>Enter the value that you have taken into the meter reading form with reading date.</li>
                 <li>Attention! Dont touch the meter board when you take the meter value.</li>
             </ul>
-            
+              
         </div>
+        <div class="trafficImg">
+                <img src="traffic.jpg" alt="" srcset="" width="200%">
+            </div> 
+            <div class = "button_container" >
+            <a href="meter_reading_calculation_form.php"> <button class = "calButton">Electricity Consumption Calculator</button></a>
+            <a href="meter_reading_guid.php"> <button class = "infoButton">Meter reading guidlines</button></a>
+            <a href="summary.php"> <button class = "SumButton">Meter reading Summary</button></a>
+            <a href="dashboard.php"> <button class = "inputButton">Meter reading input</button></a>
+            </div>
     </div>
    
 

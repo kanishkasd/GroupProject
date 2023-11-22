@@ -11,6 +11,8 @@
 
         <div class="banner">
             <?php include_once'navbar.php' ?>
+            <h3 class="headText"> You can calculate your electricity consumption retes using below form.. 
+                please select two days thats you need to calculate and submit it</h3>
             <div class="meter_reading_form">
             
             <h1>Meter Reading Calculator</h1>
@@ -76,6 +78,17 @@
 
                     <button class="submit_button" name="submit" type="submit">Submit</button>
                 </form>
+             </div>
+
+             <div class = "button_container" >
+                <a href="meter_reading_calculation_form.php"> <button class = "calButton">Electricity Consumption Calculator</button></a>
+                <a href="meter_reading_guid.php"> <button class = "infoButton">Meter reading guidlines</button></a>
+                <a href="summary.php"> <button class = "SumButton">Meter reading Summary</button></a>
+                <a href="dashboard.php"> <button class = "inputButton">Meter reading input</button></a>
+             </div>
+
+        </div>
+               
     </body>
     </html>
 
