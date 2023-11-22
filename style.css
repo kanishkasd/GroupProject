@@ -12,10 +12,20 @@
 
 .banner{
     width: 100%;
-    height: 150%;
+    height: 175%;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)) , url(CEB1.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.headText{
+  color: #fff;
+  margin-left: 20px;
+  margin: 20px;
+}
+
+.ancor{
+  color:#fff;
 }
 
 .navbar{
@@ -439,6 +449,7 @@ input[type=date], select {
   align-items: center;
   text-align: center;
   color: white;
+  
 }
 .sum_table{
   align-items: center;
@@ -460,7 +471,16 @@ input[type=date], select {
 .meter_guid{
   text-align: left;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 200px;
   padding: 6px;
   font-size: 20px;
+}
+.trafficImg{
+margin: 50px;
+margin-left: 160px;
+display: block;
+width: 40%;
+padding-top: 20px;
+position: relative;
+align-items: center;
 }

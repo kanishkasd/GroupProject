@@ -25,7 +25,7 @@
                     <label for="password">Password</label>
                     <input type="password" id="pwd" name="pwd" placeholder="Your password..">
 
-                    <label for="Rpassword">Repet Password</label>
+                    <label for="Rpassword">Repeat Password</label>
                     <input type="password" id="pwd" name="pwdrepeat" placeholder="Re enter Your password..">
                 
                     <button class="logbutton" name="submit" type="submit">Register</button>
