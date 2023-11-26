@@ -20,7 +20,7 @@
                 <form action="include/calculate_consumption.php" method="post">
                     <label for="start_date">Start Date:</label>
                     <select name="start_date" required>
-                        <option value="id"><?php
+                        <option value=""><?php
                             session_start();
                             require_once 'include/dbh.inc.php';
 
@@ -48,9 +48,9 @@
                     </select><br>
 
                     <label for="end_date">End Date:</label>
-                    <select name="end_date" required>
+                    <select name="end_date" required><option value="">
                     <?php
-                            session_start();
+                            
                             require_once 'include/dbh.inc.php';
 
                             $user_id = $_SESSION['user_id'];
