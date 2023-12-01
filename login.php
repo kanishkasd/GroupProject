@@ -38,7 +38,7 @@
                     
                     }
                 ?>
-                <p>Create a new account <a href="singup.php">click here</a> 
+                <p>Create a new account <a href="singup.php" target="_self">click here</a> 
         </div>
 
         </div>
