@@ -15,8 +15,8 @@
                 <p>lets create an account and track your electricity consumption  daily/monthly, <br>genarate accurate bill, <br>received warnings for high energy usage and reminders </p>
 
                 <div>
-                   <a href="login.php"> <button type="button"><span></span> LogIn</button></a>
-                    <a href="singup.php"><button type="button"><span></span> Create an account</button></a>
+                   <a href="login.php" target="_self"> <button type="button"><span></span> LogIn</button></a>
+                    <a href="singup.php" target="_self"><button type="button"><span></span> Create an account</button></a>
                 </div>
             </div>
         </div>

@@ -34,10 +34,10 @@ if (!isset($_SESSION['user_id'])) {
                 <img src="traffic.jpg" alt="" srcset="" width="200%">
             </div> 
             <div class = "button_container" >
-            <a href="meter_reading_calculation_form.php"> <button class = "calButton">Electricity Consumption Calculator</button></a>
-            <a href="meter_reading_guid.php"> <button class = "infoButton">Meter reading guidlines</button></a>
-            <a href="summary.php"> <button class = "SumButton">Meter reading Summary</button></a>
-            <a href="dashboard.php"> <button class = "inputButton">Meter reading input</button></a>
+            <a href="meter_reading_calculation_form.php" target="_self"> <button class = "calButton">Electricity Consumption Calculator</button></a>
+            <a href="meter_reading_guid.php" target="_self"> <button class = "infoButton">Meter reading guidlines</button></a>
+            <a href="summary.php" target="_self"> <button class = "SumButton">Meter reading Summary</button></a>
+            <a href="dashboard.php" target="_self"> <button class = "inputButton">Meter reading input</button></a>
             </div>
     </div>
    
