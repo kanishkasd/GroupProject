@@ -21,9 +21,9 @@ if (!isset($_SESSION['user_id'])) {
         <?php include_once 'navbar.php' ?>
         <div class="summary_content">
 
-            <h1>Meter Reading Guidlines</h1>
+            <h1>Meter Reading Guidelines</h1>
             <ul class="meter_guid">
-                <li>First goto your home/organization electricity meter board.</li>
+                <li>First go to your home/organization electricity meter board.</li>
                 <li>See the value that displays your meter board.</li>
                 <li>Take the value</li>
                 <li>Login to the CEB application</li>

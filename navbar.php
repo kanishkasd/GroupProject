@@ -1,10 +1,10 @@
 <div class="navbar">
     <img src="./assets/images/logo.jpg" class="logo">
     <ul>
-        <li><a href="index.php" target="_blank">Home</a></li>
-        <li><a href="dashboard.php" target="_blank">Dashboard</a></li>
-        <li><a href="about us.php" target="_blank">About us</a></li>
-        <li><a href="contact us.php" target="_blank">Contact us</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="dashboard.php">Dashboard</a></li>
+        <li><a href="about us.php">About us</a></li>
+        <li><a href="contact us.php">Contact us</a></li>
         <?php
         if (isset($_SESSION["user_uid"])) {
             echo '<li><a href="#">' . $_SESSION["user_uid"] . ' !</a></li>';

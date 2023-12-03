@@ -13,7 +13,7 @@
 
         <div class="content">
             <h1>Ceylon Electricity Bill Calculation System</h1>
-            <p>let's create an account and track your electricity consumption daily/monthly, <br>genarate accurate bill, <br>received warnings for high energy usage and reminders </p>
+            <p>Let's create an account and track your electricity consumption daily/monthly, <br>genarate accurate bill, <br>received warnings for high energy usage and reminders </p>
 
             <div>
                 <a href="login.php" target="_self"> <button type="button"><span></span> LogIn</button></a>
