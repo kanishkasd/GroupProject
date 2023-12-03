@@ -1,7 +1,7 @@
 <?php
 $severName = "localhost";
 $dbUsername = "CEB";
-$dbPassword = "421420224";
+$dbPassword = "a7RsEH)UL-]reiMD";
 $dbName = "ceb_calculation_system";
 
 $conn = mysqli_connect($severName,$dbUsername,$dbPassword,$dbName);
