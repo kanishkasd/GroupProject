@@ -25,12 +25,12 @@
                     <p>" we believe in empowering users to take control of their electricity usage and make informed decisions for a greener and more efficient future.
                         Our platform offers a seamless experience,
                         allowing you to create a personalized account to track your electricity consumption on a daily and monthly basis.
-                        By keeping a close eye on your energy usage patterns, you can identify areas for improvement and adopt energy-saving habits. Our cutting-edge algorithms ensure accurate bill generation, taking into account the latest tariff rates and any applicable discounts.
+                        By keeping a close eye on your energy usage patterns, you can identify areas for improvement and adopt energy-saving habits.<br> <br> Our cutting-edge algorithms ensure accurate bill generation, taking into account the latest tariff rates and any applicable discounts.
                         Additionally, we are committed to promoting energy conservation and sustainability, which is why our system automatically sends you warnings for high energy usage,
-                        helping you prevent unexpected bill shocks. With customizable reminders for bill payments,
+                        helping you prevent unexpected bill shocks. With customizable reminders for bill payments,<br>
                         you'll never miss a due date again. Join us today and embark on a journey towards a more eco-conscious and economically beneficial approach to electricity management!"
 
-                    </p>
+                        </br>
                     <div class="button1">
                         <a href="contact us.php">contact us for more</a>
                     </div>
